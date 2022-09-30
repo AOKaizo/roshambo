@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pixelate.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script defer src="pixelate.js"></script>
+    <title>Error!</title>
+</head>
+<body id="error-page">
+    <div id="pixelate" alt="Game using boxes to create art by changing the colors of the boxes">
+    <h1>Pixelate</h1>
+    <div id="control-panel">
+      <div id="grid-controls">
+        <label for="grid-controls">Set the Grid:</label>
+        <button id="row-button" for="row-input">Specify Rows</button>
+        <input id="row-input" type="text" name="column-row" placeholder="# of Rows" class="hide"></input>
+        <button id="column-button" for="column-input">Specify Columns</button>
+        <input id="column-input" type="text" name="column-input" placeholder="# of Columns" class="hide"></input>
+        <button id='clear-grid' >Delete the Grid</button>
+        <button id='make-grid' >Make the Grid</button>
+      </div>
+      <div id="color-controls">
+        <label for="color-controls">Choose Your Color:</label>
+        <button id="color-button" for="color-choice">Specify Color</button>
+        <select id="color-choice" class="hide">
+          <option value="black">Black</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="magenta">Magenta</option>
+          <option value="yellow">Yellow</option>
+          <option value="limegreen">Lime Green</option>
+          <option value="lightgray">Light Gray</option>
+        </select>
+      </div>
+    </div>
+    <table id="pixel-table" draggable="false"></table>
+</div>
+    <img src="./images/page-not-found-puppy.png" alt="A cute puppy covered in paint saying that there was an error." id="error-puppy-img">
+</body>
+</html>

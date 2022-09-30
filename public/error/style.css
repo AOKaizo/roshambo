@@ -1,0 +1,14 @@
+#error-page {
+  background-color: rgba(177, 220, 229, 255);
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: auto;
+}
+
+#error-puppy-img {
+    width: 100vw;
+    height: auto;
+}

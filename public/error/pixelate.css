@@ -1,0 +1,95 @@
+#pixelate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vh;
+  font-family: "Press Start 2P", cursive;
+  flex: content;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inherit;
+}
+
+#control-panel {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  place-self: center;
+  row-gap: 5px;
+}
+
+#grid-controls {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  place-self: center;
+}
+
+#color-controls {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  place-self: center;
+}
+
+#make-grid {
+  text-shadow: 1px 1px white;
+}
+
+#column-input {
+  width: 14vw;
+}
+
+#row-input {
+  width: 14vw;
+}
+#color-choice {
+  width: 14vw;
+  height: 3vh;
+  place-self: center;
+}
+#color-button {
+  width: 14vw;
+  height: 3vh;
+  place-self: center;
+}
+
+#pixel-table {
+  user-select: none;
+}
+
+.data-box {
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  place-self: center;
+}
+
+.lightgray {
+  background-color: lightgray;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.magenta {
+  background-color: magenta;
+}
+.yellow {
+  background-color: yellow;
+}
+.limegreen {
+  background-color: limegreen;
+}
